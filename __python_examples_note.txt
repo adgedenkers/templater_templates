@@ -1,5 +1,5 @@
 <%*
-	let folder = "/projects/Python Examples/"
+	let folder = "/python-examples/"
 	let title = tp.file.title
 	if (title.startsWith("Untitled")) {
 		title = await tp.system.prompt("Title");
