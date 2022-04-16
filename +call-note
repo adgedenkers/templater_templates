@@ -2,7 +2,7 @@
 	let callTo = await.system.prompt("Who called? Or is calling?")
     let folder = "calls"
     let rectype = "call-note"
-    await.tp.file.move()
+    await.tp.file.move(${folder} + ${callTo} + " " + tp.date.now())
 -%>
 ---
 author:  Adge Denkers | adge.denkers@gmail.com
