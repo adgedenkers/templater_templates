@@ -1,0 +1,24 @@
+<%* 
+	let callTo = await.system.prompt("Who called? Or is calling?")
+    let folder = "calls"
+    let rectype = "call-note"
+    await.m
+-%>
+---
+author:  Adge Denkers | adge.denkers@gmail.com
+record:  call-note
+call-to: <% tR += ${callTo} %>
+created: 
+updated: 
+---
+
+# Spoke With <% tR += ${callTo} %>
+<% tR += ${tp.date.now} %>
+
+## Reason for call
+
+*
+
+## Outcome
+
+*
